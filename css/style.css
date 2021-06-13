@@ -90,3 +90,14 @@ header {
 .img_3_right > img {
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .section {
+    flex-direction: column;
+  }
+  .contetn {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+}
