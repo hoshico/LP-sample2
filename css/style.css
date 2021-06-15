@@ -68,23 +68,18 @@ header {
 
 .img_3_left {
   width: 50%;
-  position:absolute;
-    top:100px;
-    left:100px;
   z-index: 10;
   opacity: 0.9;
 }
 .img_3_left > img {
   width: 100%;
-  position: absolute;
+  
   
 }
 
 .img_3_right {
   width: 50%;
-  position:absolute;
-    top:500px;
-    left:500px;
+  
 
 }
 .img_3_right > img {
