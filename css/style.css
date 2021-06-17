@@ -68,23 +68,31 @@ header {
 
 .img_3_left {
   width: 50%;
+  height: 500px;
   z-index: 10;
   opacity: 0.9;
+  position: relative;
 }
 .img_3_left > img {
   width: 100%;
-  
+  position: absolute;
+    left: 100px;
   
 }
 
 .img_3_right {
   width: 50%;
-  
+  height: 500px;
+  position: relative;
 
 }
 .img_3_right > img {
   width: 100%;
+  position: absolute;
+  top: 400px;
+  left: -200px;
 }
+
 
 @media screen and (max-width: 767px) {
   .section {
