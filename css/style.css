@@ -12,21 +12,9 @@ header {
   padding-left: 20px;
 }
 
-
-.main_container {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 300px;
-}
-
 .section {
   display: flex;
   margin-bottom: 200px;
-}
-.section_2 {
-  display: flex;
-  margin-bottom: 80px;
-  position: relative;
 }
 
 .img_1_left {
@@ -97,16 +85,32 @@ header {
 @media screen and (max-width: 767px) {
   .section {
     flex-direction: column;
-    background-color: rgb(11, 167, 115);
+  }
+  #content {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+   
+  #content .image {
+    width: 100%;
+
+  }
+
+  .img_3_left {
+    z-index: 0;
+    opacity: 1;
+    margin-bottom: 400px;
+  }
+  .img_3_left > img {
+    position: absolute;
+      left: auto;
+  }
+
+  .img_3_right > img {
+    width: 100%;
+    position: absolute;
+      top: auto;
+      left: auto;
   }
   
-  .section > .content {
-    width: 100%;
-    margin: 0 auto;
-    background-color: black;
-  }
-  
-  .content > img {
-    width: 100%;
-  }
 }
